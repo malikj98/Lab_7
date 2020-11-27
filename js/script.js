@@ -1,5 +1,5 @@
 function init(){
-//add your javascrip between these two lines of code
+//add your javascript between these two lines of code
  function js() {
    var button = document.getElementById("entrybutton");
    var input = document.getElementById("entryinput").value;
@@ -8,5 +8,5 @@ function init(){
 	document.getElementById("textoutput").innerHTML = input
 }
 button.addEventListener("click", js);
-window.addEventListener('load', init);
 }
+window.addEventListener('load', init);
