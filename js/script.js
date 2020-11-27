@@ -4,7 +4,7 @@ function init(){
    var button = document.getElementById("entrybutton");
    var input = document.getElementById("entryinput").value;
    var name = document.getElementsByTagName("h2").item(0).innerHTML;
-	alert("Malik Roberson: " + input);
+	alert(name + ": " + input);
 	document.getElementById("textoutput").innerHTML = input
 }
 button.addEventListener("click", js);
