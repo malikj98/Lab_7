@@ -8,4 +8,4 @@ function init() {
       document.getElementById("textoutput").innerHTML = input;
   }
 window.addEventListener('load', init);
-}
+} 
