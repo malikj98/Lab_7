@@ -1,12 +1,11 @@
-function init(){
-//add your javascript between these two lines of code
- var button = document.getElementById("entrybutton")
- function js() {
-   var input = document.getElementById("entryinput").value;
-   var name = document.getElementsByTagName("h2").item(0).innerHTML;
-   alert(name + ": " + input);
-   document.getElementById("textoutput").innerHTML = input
-}
-button.addEventListener("click", one);
-}
+function init() {
+//add your javascrip between these two lines of code
+  document.getElementById("entrybutton").addEventListener("click", lab);
+  function lab() {
+    var button = document.getElementById("entrybutton");
+    var input = document.getElementById("entryinput").value;
+      alert(" Malik Roberson: " + input);
+      document.getElementById("textoutput").innerHTML = input;
+  }
 window.addEventListener('load', init);
+}
