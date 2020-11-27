@@ -1,12 +1,12 @@
 function init() {
 //add your javascript between these two lines of code
-    var enbutton = document.getElementById("entrybutton");
+    var ebutton = document.getElementById("entrybutton");
     function one() {
-        var eninput = document.getElementById("entryinput").value;
+        var einput = document.getElementById("entryinput").value;
         var name = document.getElementsByTagName("h2").item(0).innerHTML;
-        alert(name + ": " + eninput);
-        document.getElementById("textoutput").innerHTML = eninput;
+        alert(name + ": " + einput);
+        document.getElementById("textoutput").innerHTML = einput;
     }
-    enbutton.addEventListener("click", one);
+    ebutton.addEventListener("click", one);
 }
 window.addEventListener('load', init);
